@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+}
+.btn{
+    width: 60px;
+    height: 10vh;
+    cursor: pointer;
+    border: none;
+}
+.active{
+    background-color: rgb(37, 212, 212);
+}
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: teal;
+    position: relative;
+}
+.disabled{
+    display: none;
+}
+.navbar ul{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size:medium;
+    font-weight: 600;
+    padding: 200px;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.toast_container{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.toast{
+    width: 200px;
+    height: 80px;
+    background-color: rebeccapurple;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+.toast-para{
+    color: white;
+    font-size: 20px;
+}
+button{
+    width: 10rem;
+    height: 5rem;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.9;
+}

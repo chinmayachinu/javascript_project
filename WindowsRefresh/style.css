@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* display: grid;
+    place-items: center; */
+}
+.container{
+    position: absolute;
+    width: 220px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+}
+.container_element{
+    width: 100%;
+    height: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: .8rem;
+    font-family: sans-serif;
+}
+p{
+    padding: 2px;
+}
+.container_element :hover{
+    background-color: whitesmoke;
+}
